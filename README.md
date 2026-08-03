@@ -1,4 +1,4 @@
-# ESP32 Phone IMU-Based Wi-Fi Kart
+# ESP32 Phone IMU-Based Wi-Fi Cart
 
 Control a two-wheel ESP32-powered Cart using your smartphone's built-in motion sensors (IMU). The smartphone acts as a wireless steering wheel, transmitting real-time orientation data over Wi-Fi to the ESP32, which calculates motor speeds for smooth differential steering.
 
