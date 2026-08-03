@@ -4,21 +4,21 @@ Control a two-wheel ESP32-powered Cart using your smartphone's built-in motion s
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📱 Smartphone IMU-based steering
-- 🌐 ESP32 hosted web dashboard
-- 🚗 Differential drive control
-- 🔊 Reverse parking buzzer
-- 🚦 Start / Stop controls
-- 🛑 Emergency brake
-- 📊 Live motion dashboard
-- 📡 Wi-Fi communication (Access Point mode)
-- 📱 Mobile-friendly interface
+-  Smartphone IMU-based steering
+-  ESP32 hosted web dashboard
+-  Differential drive control
+-  Reverse parking buzzer
+-  Start / Stop controls
+-  Emergency brake
+-  Live motion dashboard
+-  Wi-Fi communication (Access Point mode)
+-  Mobile-friendly interface
 
 ---
 
-## 🛠 Hardware
+##  Hardware
 
 - ESP32 Development Board
 - L298N Motor Driver
@@ -31,7 +31,7 @@ Control a two-wheel ESP32-powered Cart using your smartphone's built-in motion s
 
 ---
 
-## 💻 Software
+##  Software
 
 - Arduino IDE
 - ESP32 Arduino Core
@@ -41,7 +41,7 @@ Control a two-wheel ESP32-powered Cart using your smartphone's built-in motion s
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The ESP32 starts as a Wi-Fi Access Point.
 2. The smartphone connects to the ESP32 network.
@@ -53,7 +53,7 @@ Control a two-wheel ESP32-powered Cart using your smartphone's built-in motion s
 
 ---
 
-## 📡 System Architecture
+##  System Architecture
 
 ```
         Smartphone
@@ -71,7 +71,7 @@ Control a two-wheel ESP32-powered Cart using your smartphone's built-in motion s
 
 ---
 
-## 🎮 Controls
+##  Controls
 
 | Phone Motion | Cart Action |
 |--------------|-------------|
@@ -89,7 +89,7 @@ Additional controls available from the web dashboard:
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - PID-based steering control
 - OTA firmware updates
@@ -103,13 +103,13 @@ Additional controls available from the web dashboard:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## ⭐ Contributing
+## Contributing
 
 Contributions, suggestions, and pull requests are welcome.
 
