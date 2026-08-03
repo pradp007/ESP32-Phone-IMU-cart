@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>ESP32 SMART DRIVE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>ESP32 SMART DRIVE</h2>
+
+  <div class="panel">
+    <button id="startStop" onclick="toggleCar()">START</button>
+
+    <div class="controls">
+      <button id="brake" onclick="brake()">BRAKE</button>
+      <button id="horn" onclick="horn()">HORN</button>
+    </div>
+
+    <div class="data">
+      Pitch: <span id="pitch">0</span><br>
+      Roll: <span id="roll">0</span>
+    </div>
+
+    <div class="distance" id="distance">-- cm</div>
+    <div class="status" id="distStatus">SAFE</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
